@@ -1,6 +1,6 @@
 # Github
 
-First set up an account on github.com
+First set up an account on www.github.com
 
 
 ### Installation

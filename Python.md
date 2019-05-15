@@ -6,7 +6,10 @@ Download and install python 2.7 from Anaconda (continnum.io)
 ## Adding packages
 Open Anaconda Shell (or terminal for unix users):
 
-`conda install <package e.g. pip>` - this installs the pip package manger, which may also be used to install libraries from the pypy repository. Then you can `pip install <package>`
+`conda install <package e.g. pip>` - this installs the pip package manger, which may also be used to install libraries from the pypy repository.
+
+Alternative method: `pip install <package>`
+
 ## Useful packages
  - pandas* - dataframe panels and general datamonging
  - ipython* - interactive usage

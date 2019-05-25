@@ -75,7 +75,11 @@ The following script tends to work for me in most cases in fixing this
  
  
  ## Links
- Save/rm/revert changes help page - https://www.atlassian.com/git/tutorials/saving-changes
+ Save Changes - https://www.atlassian.com/git/tutorials/saving-changes
+ 
+ Undo Changes - https://www.atlassian.com/git/tutorials/undoing-changes
+ 
+ Rewrite Changes- https://www.atlassian.com/git/tutorials/rewriting-history
  
  ## Cheatsheet
  https://docs.google.com/viewer?url=https%3A%2F%2Fwww.atlassian.com%2Fdam%2Fjcr%3A8132028b-024f-4b6b-953e-e68fcce0c5fa%2Fatlassian-git-cheatsheet.pdf

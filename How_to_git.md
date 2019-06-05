@@ -2,6 +2,8 @@
 
 First set up an account on www.github.com
 
+<p><span style="color:red">Note repositories are created PUBLIC by default</span>.</P>
+
 
 ### Installation
 #### Windows:

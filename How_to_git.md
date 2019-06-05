@@ -16,6 +16,8 @@ First set up an account on www.github.com
 ## Usage
 Open Terminal or GitBash (windows)  - reffered to as console for the purposes of this script
 
+To configure from git desktop; go to Preferences > Git-Shell.
+
 ### Simple bash commands
 `ls` - lists files in directory 
 

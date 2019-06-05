@@ -83,3 +83,13 @@ The following script tends to work for me in most cases in fixing this
  
  ## Cheatsheet
  https://docs.google.com/viewer?url=https%3A%2F%2Fwww.atlassian.com%2Fdam%2Fjcr%3A8132028b-024f-4b6b-953e-e68fcce0c5fa%2Fatlassian-git-cheatsheet.pdf
+
+
+
+
+## Advanced 
+
+### Mainly as they can be dangerous things to do
+
+Remove a file(s) from all branches and all commits - `git filter-branch --tree-filter 'find -iname "testfile.png" -type f -exec rm -rf {} \; ' -- --all`
+ 

@@ -13,6 +13,19 @@ Section "Device"
     Option      "PageFlip" "false"
     Option      "TearFree" "true"
 
+    Option      "DRI" "3"             # DRI2 and DRI1 are alternatives if DRI3 performs performs poorly
+    Option      "AccelMethod"  "sna" # default
+    #Option      "AccelMethod"  "uxa" # fallback
+    Option         "Composite" "Disable"
+    Option  "TripleBuffer" "true"
+
 EndSection
 
 ```
+
+4. *Remove* all lines not containing PATH from /etc/environment. That is do not have :
+```
+CLUTTER_PAINT=....
+CLUTTER_VBLANK=....
+```
+5. reboot

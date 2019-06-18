@@ -1,0 +1,16 @@
+# Just dont
+
+
+## You must disable safeboot from the bios
+## You then install the drivers from the displaylink-debian repo on github
+## Update the xorg conf
+`sudo gedit /etc/X11/xorg.conf.d/20-displaylink.conf`
+And insert:
+```
+Section "Device"
+    Identifier  "DisplayLink"
+    Driver      "modesetting"
+    Option      "PageFlip" "false"
+EndSection
+
+```

@@ -12,12 +12,12 @@ Section "Device"
     Identifier  "DisplayLink"
     Option      "PageFlip" "false"
     Option      "TearFree" "true"
-
-    Option      "DRI" "3"             # DRI2 and DRI1 are alternatives if DRI3 performs performs poorly
-    Option      "AccelMethod"  "sna" # default
-    #Option      "AccelMethod"  "uxa" # fallback
-    Option         "Composite" "Disable"
-    Option  "TripleBuffer" "true"
+        Driver      "modesetting"
+        Option      "DRI" "3"             # DRI2 and DRI1 are alternatives if DRI3 performs performs poorly
+        #Option      "AccelMethod"  "sna" # default
+        #Option      "AccelMethod"  "uxa" # fallback
+        Option         "Composite" "Disable"
+        Option  "TripleBuffer" "true"
 
 EndSection
 

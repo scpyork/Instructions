@@ -1,4 +1,7 @@
-# How to mount the s3 driver to your local machine
+# How to mount the s3 browser to your local machine
+
+This is similar for MacOS, except the installation instructions. 
+
 
 ## Install
 

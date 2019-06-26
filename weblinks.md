@@ -1,0 +1,1 @@
+-s3 browser linux : https://cloud.netapp.com/blog/amazon-s3-as-a-file-system
